@@ -70,3 +70,6 @@ console.log('reactWord:', reactWord.length);
 console.log('Palabras:', reactWord.length);
 console.log('reactWordgi:', reactWordgi);
 ```
+
+
+### `Orden de ejecución - Introducción`
