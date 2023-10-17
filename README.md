@@ -43,3 +43,9 @@ Se refiere principalmente a la interacción con el disco duro del sistema.
 ### `Hello World - En Node`
 
 ### `Archivos de JavaScript`
+No es necesario definir la extension del archivo js
+```bash
+node .\app
+
+Hola mundo!
+```
