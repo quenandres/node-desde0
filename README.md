@@ -138,3 +138,26 @@ El archivos de package.json es el origen de la aplicación que determinara versi
 
 ### `Package.json Scripts`
 El comando _start_ es un comando especial por el que no tenemos que definir el _run_ cuando hacemos `npm start`
+
+### `Importaciones y exportaciones`
+Metodo de importación tradicional en js
+_01-template.js_
+```js
+const emailTemplate = `
+    <div>
+        <h1>Hi {{name}}</h1>
+        <p>Gracias por su orden.</p>
+    </div>
+`;
+
+module.exports = {
+    emailTemplate
+}
+```
+
+_app.js_
+```js
+const { emailTemplate } = require('./js-foundation/01-template');
+```
+
+### `Nodemon - Paquetes de terceros`
