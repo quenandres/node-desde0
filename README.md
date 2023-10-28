@@ -128,4 +128,13 @@ Esta sección es altamente recomendada para todos los que están empezando con N
 
 
 ### `Inicio de proyecto - Fundamentos`
+Crear archivo de package.json
+
+```bash
+npm init
+```
 El archivos de package.json es el origen de la aplicación que determinara versiones, scripts y datos relevantes de la aplicación.
+
+
+### `Package.json Scripts`
+El comando _start_ es un comando especial por el que no tenemos que definir el _run_ cuando hacemos `npm start`
