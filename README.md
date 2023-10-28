@@ -161,3 +161,11 @@ const { emailTemplate } = require('./js-foundation/01-template');
 ```
 
 ### `Nodemon - Paquetes de terceros`
+```bash
+npm install nodemon --save-dev
+```
+
+Agregamos el comando _"dev": "nodemon src/app.js"_ a los scripts de package.json.
+
+
+### `Variables de entorno por defecto`
