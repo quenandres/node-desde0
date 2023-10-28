@@ -73,3 +73,17 @@ console.log('reactWordgi:', reactWordgi);
 
 
 ### `Orden de ejecución - Introducción`
+
+
+### `Node - Code Execution`
+JS es Blocking y Single-Threaded, casi todo el codigo de js es blocking.
+
+3 Componentes principales de NODE
+- Dependencias externas
+- Caracteristicas de C++
+- Librerías de JS que se conectan con C++ desde nuestro código
+
+<img src="./assets/images/componentes_principales_node.jpeg">
+
+
+### `Node - Event Loop`
