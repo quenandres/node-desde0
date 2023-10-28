@@ -87,3 +87,19 @@ JS es Blocking y Single-Threaded, casi todo el codigo de js es blocking.
 
 
 ### `Node - Event Loop`
+<img width="1000" height="600" src="./assets/images/event_loop.jpeg">
+
+1. Callback en el microtask se ejecutan primero.
+2. Todos los callbacks dentro del timer queue se ejecutan.
+3. Callbacks en el microtask queue(si hay) se ejecutan después de los callback timers, primero tareas en el nextTick queue y luego tareas en el promise queue.
+4. Callbacks de I/O se ejecutan.
+5. Callbacks en el microtask queue se ejecutan y luego promise queue.
+6. Todos los callbacks en el check queue se ejecutan
+7. Callbacks en el microtask se ejecutan después de cada callback en el check queue. (nextTick y luego promise) 
+8. Todos los callbacks en el close queue son ejecutados
+9. Por ultima vez en el mismo ciclo, los microstask queues son ejecutados de la misma forma, nextTick y luego promise queue.
+
+[https://www.builder.io/blog/visual-guide-to-nodejs-event-loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
+
+# `Sección 3: Desarrollando en Node`
+
