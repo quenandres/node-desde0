@@ -103,3 +103,29 @@ JS es Blocking y Single-Threaded, casi todo el codigo de js es blocking.
 
 # `Sección 3: Desarrollando en Node`
 
+`Temas puntuales de la sección`
+
+En esta sección veremos generalidades de Node y a la vez, aprovechamos para explicar ciertos conceptos de JavaScript que son necesarios para casi cualquier aplicación de Node.
+
+Puntualmente veremos:
+
+- Package.json
+- Node Modules
+- Scripts
+- Importaciones y Exportaciones
+- Módulos
+- Reforzamiento de JS
+- Callbacks
+- Arrow Functions
+- Factory Functions
+- Promises
+- Async Await
+- Peticiones Http básicas
+- Dependencias de Producción y Desarrollo
+- Patrón adaptador para nuestras dependencias
+
+Esta sección es altamente recomendada para todos los que están empezando con NodeJS, y a la vez, sirve para refrescar un poco la memoria sobre JavaScript.
+
+
+### `Inicio de proyecto - Fundamentos`
+El archivos de package.json es el origen de la aplicación que determinara versiones, scripts y datos relevantes de la aplicación.
