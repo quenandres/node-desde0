@@ -169,3 +169,15 @@ Agregamos el comando _"dev": "nodemon src/app.js"_ a los scripts de package.json
 
 
 ### `Variables de entorno por defecto`
+La variables _process_ contiene datos del proceso, de la ejecución y valores asignados por el desarrollador.
+
+```js
+//console.log('process');
+const { COMPUTERNAME, VSCODE_GIT_IPC_HANDLE } = process.env;
+
+//console.table({COMPUTERNAME, VSCODE_GIT_IPC_HANDLE});
+
+const characters = ["flash", "batman", "superman"];
+const [, batman, ] = characters;
+//console.log(batman);
+```
